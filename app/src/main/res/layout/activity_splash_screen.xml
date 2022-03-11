@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".SplashScreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <View
+            android:id="@+id/firstLine"
+            android:layout_width="20dp"
+            android:layout_height="60dp"
+            android:background="@drawable/white_line"
+            android:layout_centerHorizontal="true"/>
+
+        <View
+            android:id="@+id/secondLine"
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/red_line"
+            android:layout_toRightOf="@+id/firstLine"/>
+
+        <View
+            android:id="@+id/thirdLine"
+            android:layout_width="20dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/secondLine"
+            android:background="@drawable/white_line" />
+
+        <View
+            android:id="@+id/fourthLine"
+            android:layout_width="20dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/thirdLine"
+            android:background="@drawable/green_line" />
+
+        <View
+            android:id="@+id/fifthLine"
+            android:layout_width="20dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/fourthLine"
+            android:background="@drawable/red_line" />
+
+        <View
+            android:id="@+id/sixthLine"
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/fifthLine"
+            android:background="@drawable/white_line" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameSp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Cyber Coder"
+            android:textSize="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/botAnim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="data.json"
+            app:lottie_loop="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

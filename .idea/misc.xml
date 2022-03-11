@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProject/Covid19Tracker/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26614583333333336" />
+        <entry key="..\:/AndroidProject/Covid19Tracker/app/src/main/res/drawable/coronavirus.xml" value="0.2465" />
+        <entry key="..\:/AndroidProject/Covid19Tracker/app/src/main/res/drawable/ic_dropdown_arrow.xml" value="0.2465" />
+        <entry key="..\:/AndroidProject/Covid19Tracker/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/AndroidProject/Covid19Tracker/app/src/main/res/drawable/ic_search.xml" value="0.1703125" />
+        <entry key="..\:/AndroidProject/Covid19Tracker/app/src/main/res/drawable/round_back_dark_blue.xml" value="0.26614583333333336" />
+        <entry key="..\:/AndroidProject/Covid19Tracker/app/src/main/res/drawable/round_btn.xml" value="0.26614583333333336" />
+        <entry key="..\:/AndroidProject/Covid19Tracker/app/src/main/res/drawable/search_bg.xml" value="0.1703125" />
+        <entry key="..\:/AndroidProject/Covid19Tracker/app/src/main/res/layout/activity_blink_vibrate.xml" value="0.25" />
+        <entry key="..\:/AndroidProject/Covid19Tracker/app/src/main/res/layout/activity_load_django_rest_api.xml" value="0.25" />
+        <entry key="..\:/AndroidProject/Covid19Tracker/app/src/main/res/layout/activity_location.xml" value="0.25" />
+        <entry key="..\:/AndroidProject/Covid19Tracker/app/src/main/res/layout/activity_login_page.xml" value="0.4" />
+        <entry key="..\:/AndroidProject/Covid19Tracker/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/Covid19Tracker/app/src/main/res/layout/activity_otp_verification_page.xml" value="0.25" />
+        <entry key="..\:/AndroidProject/Covid19Tracker/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/AndroidProject/Covid19Tracker/app/src/main/res/layout/activity_show_country_list.xml" value="0.2" />
+        <entry key="..\:/AndroidProject/Covid19Tracker/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/AndroidProject/Covid19Tracker/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/AndroidProject/Covid19Tracker/app/src/main/res/layout/country_item_layout.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
