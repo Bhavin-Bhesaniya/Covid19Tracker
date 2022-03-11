@@ -49,8 +49,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         Animation anim = new AlphaAnimation(0.0f, 1.0f);
-        anim.setDuration(50); //You can manage the blinking time with this parameter
-        anim.setStartOffset(20);
+        anim.setDuration(400); //You can manage the blinking time with this parameter
+        anim.setStartOffset(40);
         anim.setRepeatMode(Animation.REVERSE);
         anim.setRepeatCount(Animation.INFINITE);
         binding.covidTitle.startAnimation(anim);
